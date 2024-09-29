@@ -1,0 +1,71 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap";
+.projects {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.projects-header h1 {
+    margin-bottom: 50px;
+}
+.all_projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+.project_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+.project_info {
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    color: white;
+  }
+.project_info h1 {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+.project_info h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+.project_info p {
+    color: white;
+}
+.project_img {
+    flex-basis: 50%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+.project_img:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: 0.7;
+  }
+.project_img img {
+    transition: 0.3s ease transform;
+  }
+.project_item:hover .project_img img {
+    transform: scale(1.1);
+  }
