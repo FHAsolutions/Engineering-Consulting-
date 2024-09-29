@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from 'react'
-import im1 from "../Images/OR.png"
-import im2 from "../Images/ER.png"
-import im3 from "../Images/ns.png"
+import im1 from "../public/Images/OR.png"
+import im2 from "../public/Images/ER.png"
+import im3 from "../public/Images/ns.png"
 
 export default function ThreeContainerLayout() {
     return (

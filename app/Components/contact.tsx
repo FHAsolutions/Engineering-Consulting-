@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import phone from "../Images/phone.png";
-import map from "../Images/map-marker.png";
-import email from "../Images/new-post.png";
+import phone from "../public/Images/phone.png";
+import map from "../public/Images/map-marker.png";
+import email from "../public/Images/new-post.png";
 import ResponsiveIframe from '../Components/ResponsiveIframe';
 
 export default function Contact() {

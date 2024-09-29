@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image';
-import im1 from "../Images/1.jpg";
-import im2 from "../Images/2.jpg";
-import im3 from "../Images/3.jpg";
-import im4 from "../Images/4.jpg";
-import im5 from "../Images/5.jpg";
-import im6 from "../Images/6.jpg";
+import im1 from "../public/Images/1.jpg";
+import im2 from "../public/Images/2.jpg";
+import im3 from "../public/Images/3.jpg";
+import im4 from "../public/Images/4.jpg";
+import im5 from "../public/Images/5.jpg";
+import im6 from "../public/Images/6.jpg";
 export default function Services() {
   return (
     <div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import im1 from "../Images/con-2.svg"
-import im2 from "../Images/3_icon.svg"
+import im1 from "../public/Images/con-2.svg"
+import im2 from "../public/Images/3_icon.svg"
 
 export default function HIC() {
   return (
