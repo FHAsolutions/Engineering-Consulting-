@@ -1,6 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
-import Wallpaper from "../Images/00.jpeg"
+
 
 const Landed = () => {
   return (

@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import im1 from "../Images/con-2.svg"
 import im2 from "../Images/3_icon.svg"
-import im3 from "../Images/con-1.svg"
 
 export default function HIC() {
   return (
