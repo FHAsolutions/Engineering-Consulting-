@@ -9,7 +9,7 @@ export default function Navbar() {
     };
     return (
         <div>
-            <nav className='bg-transparent hover:bg-gray-900 transition-all duration-500 relative'>
+            <nav className='bg-gray-900 transition-all duration-500  fixed top-0 w-full z-50'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                     <div className='flex items-center justify-between h-16'>
                         {/* Left: Logo */}

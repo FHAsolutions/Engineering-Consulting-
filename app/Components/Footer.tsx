@@ -37,14 +37,6 @@ export default function Footer() {
             <div className="flex flex-1 gap-4 hover:cursor-pointer">
                 
             </div>
-            
-            <div className="flex gap-4 hover:cursor-pointer items-center justify-center ">
-                <img src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg" width="30" height="30" alt="fb" />
-                <img src="https://www.svgrepo.com/show/303115/twitter-3-logo.svg" width="30" height="30" alt="tw" />
-                <img src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" width="30" height="30" alt="inst" />
-                {/* <img src="https://www.svgrepo.com/show/94698/github.svg" className="" width="30" height="30" alt="gt" /> */}
-                <img src="https://www.svgrepo.com/show/28145/linkedin.svg" width="30" height="30" alt="in" />
-            </div>
         </div>
         <p className="font-sans p-8 text-white text-center  md:text-center md:text-lg md:p-4">We Always Happy to Help You!</p>
     </div>

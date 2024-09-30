@@ -3,8 +3,6 @@ import Image from 'next/image';
 import phone from "../public/Images/phone.png";
 import map from "../public/Images/map-marker.png";
 import email from "../public/Images/new-post.png";
-import ResponsiveIframe from '../Components/ResponsiveIframe';
-
 export default function Contact() {
   return (
     <div className="container mt-16 mx-auto px-4">
@@ -42,18 +40,20 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      
-      <div className="flex justify-center items-center mt-8">
-        <div className="flex p-6 rounded-lg duration-1000 hover:shadow-lg w-full">
-          <div className='ml-6 flex text-center w-full'>
-            <h3 className="text-4xl mb-4">You Can Find Us At</h3> <br></br>
-            <ResponsiveIframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.5752150618864!2d-79.41467898761597!3d43.7609171453358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2d63630f7429%3A0x8e8c1b22ab5ac319!2s25%20Sheppard%20Ave%20W%2C%20North%20York%2C%20ON%20M2N%206S6%2C%20Canada!5e0!3m2!1sen!2seg!4v1727606085923!5m2!1sen!2seg"
-              title="Google Maps Location"
-            />
-          </div>
-        </div>
-      </div>
+      <div className="flex justify-center items-center mt-2">
+  <div className="p-6 rounded-lg duration-1000 hover:shadow-lg w-full flex justify-center items-center">
+    <div className="text-center">
+      <h3 className="text-4xl mb-4">You Can Find Us At</h3> <br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.5752150618864!2d-79.41467898761597!3d43.7609171453358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2d63630f7429%3A0x8e8c1b22ab5ac319!2s25%20Sheppard%20Ave%20W%2C%20North%20York%2C%20ON%20M2N%206S6%2C%20Canada!5e0!3m2!1sen!2seg!4v1727606085923!5m2!1sen!2seg"
+        title="Google Maps Location"
+        className="mx-auto"
+        style={{ width: 400, height: 400 }}
+      />
+    </div>
+  </div>
+</div>
+     
     </div>
   );
 }

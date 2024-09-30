@@ -19,7 +19,6 @@ export default function Home() {
         objectFit="cover"
         className="absolute inset-0"
       />
-
       <div className="absolute inset-0 bg-black opacity-40" id="#num"></div>
           <Navbar/>
           <Landed/>
