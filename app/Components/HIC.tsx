@@ -13,7 +13,7 @@ export default function HIC() {
     <div className="flex justify-center">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         {/* Container 1 */}
-        <div className="bg-transparent hover:bg-gray-900 transition-all duration-500 rounded-3xl  transform w-[350px] h-[400px] group">
+        <div className="bg-transparent hover:bg-gray-900 transition-all duration-500 rounded-3xl border-spacing-1 border border-gray-400  transform w-[350px] h-[400px] group">
           <Image src={im1} alt="Image 1" className="ml-36 mt-9 object-fit items-center justify-center rounded-t-lg" />
           <div className="p-6">
             <h2 className="text-xl text-black font-bold mb-2 group-hover:text-blue-400">To Help Your Projects Come To Life</h2>
@@ -23,7 +23,7 @@ export default function HIC() {
         </div>
 
         {/* Container 2 */}
-        <div className="bg-transparent hover:bg-gray-900 transition-all duration-500 rounded-3xl items-center justify-center text-center w-[350px] h-[400px] group">
+        <div className="bg-transparent hover:bg-gray-900 transition-all duration-500 rounded-3xl border-spacing-1 border border-gray-400 items-center justify-center text-center w-[350px] h-[400px] group">
           <Image src={im2} alt="Image 2" className="ml-36 mt-9 object-fit rounded-t-lg" />
           <div className="p-6">
             <h2 className="text-xl text-black font-bold mb-2 group-hover:text-blue-400">Client Expansion</h2>

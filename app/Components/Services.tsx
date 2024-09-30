@@ -27,7 +27,7 @@ export default function Services() {
               className="object-cover h-full w-full transform transition-transform duration-300 hover:scale-110"
             />
           </div>
-          <div className="bg-gradient-to-r from-gray-700 to-gray-600 border border-gray-700 p-6 w-full md:w-[50%] lg:w-[50%] h-64">
+          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] lg:w-[50%] h-64">
             <h2 className="text-2xl text-white font-bold mt-10 mb-4">Telecom</h2>
             <p className="text-sm text-white">
               At FHA Solutions, we are a dedicated telecommunication design firm.
@@ -46,7 +46,7 @@ export default function Services() {
               className="object-cover h-full w-full transform transition-transform duration-300 hover:scale-110"
             />
           </div>
-          <div className="bg-gradient-to-r from-gray-700 to-gray-600 border border-gray-700 p-6 w-full md:w-[50%] h-64">
+          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
             <h2 className="text-2xl font-bold text-white mt-10 mb-4">Middleman/Bids</h2>
             <p className="text-sm text-white">
               We specialize in overseeing and ensuring the success of your projects!
@@ -65,7 +65,7 @@ export default function Services() {
               className="object-cover h-full w-full transform transition-transform duration-300 hover:scale-110"
             />
           </div>
-          <div className="bg-gradient-to-r from-gray-700 to-gray-600 border border-gray-700 p-6 w-full md:w-[50%] h-64">
+          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
             <h2 className="text-2xl font-bold text-white mt-10 mb-4">Design and Drafting</h2>
             <p className="text-sm text-white">
               We pride ourselves on delivering high-quality work efficiently and effectively.
@@ -84,7 +84,7 @@ export default function Services() {
               className="object-cover h-full w-full transform transition-transform duration-300 hover:scale-110"
             />
           </div>
-          <div className="bg-gradient-to-r from-gray-700 to-gray-600 border border-gray-700 p-6 w-full md:w-[50%] h-64">
+          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
             <h2 className="text-2xl font-bold mb-4 mt-10 text-white">Project Management</h2>
             <p className="text-sm text-white">
               We are dedicated to delivering projects efficiently and to the highest standards.
@@ -101,7 +101,7 @@ export default function Services() {
               className="object-cover h-full w-full transform transition-transform duration-300 hover:scale-110"
             />
           </div>
-          <div className="bg-gradient-to-r from-gray-700 to-gray-600 border border-gray-700 p-6 w-full md:w-[50%] h-64">
+          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
             <h2 className="text-2xl font-bold mb-4 mt-10 text-white">General Consultation & Contracting</h2>
             <p className="text-sm text-white">
               Our experienced team ensures your projects are delivered to the highest standards.
@@ -115,10 +115,10 @@ export default function Services() {
             <Image
               src={im6}
               alt="Telecom"
-              className="object-cover h-full w-full transform transition-transform duration-300 hover:scale-110"
+              className="object-fit h-[50%]: w-[100%] transform transition-transform duration-300 hover:scale-110"
             />
           </div>
-          <div className="bg-gradient-to-r from-gray-700 to-gray-600 border border-gray-700 p-6 w-full md:w-[50%] h-64">
+          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
             <h2 className="text-2xl font-bold mb-4 mt-10 text-white">Telecom</h2>
             <p className="text-sm text-white">
               Delivering high-quality work efficiently and effectively.

@@ -6,37 +6,37 @@ import email from "../public/Images/new-post.png";
 export default function Contact() {
   return (
     <div className="container mt-16 mx-auto px-4">
-      <h2 className="text-3xl font-bold text-center text-black mb-8">
+      <h2 className="text-5xl  text-center text-black mb-8">
         CON<span>TACT INFO</span>
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div className="flex p-6 rounded-lg duration-500 hover:shadow-lg">
+        <div className="flex p-6 rounded-lg duration-500 hover:shadow-lg bg-gray-900">
           <div>
             <Image src={phone} alt="Phone" />
           </div>
           <div className='ml-6'>
-            <h3 className="text-xl font-semibold">Phone</h3>
-            <p className="mt-2">TBD</p>
+            <h3 className="text-xl font-semibold text-white">Phone</h3>
+            <p className="mt-2 text-white">TBD</p>
           </div>
         </div>
         
-        <div className="flex p-6 rounded-lg duration-500 hover:shadow-lg">
+        <div className="flex p-6 rounded-lg duration-500 hover:shadow-lg bg-gray-900">
           <div>
             <Image src={email} alt="Email" />
           </div>
           <div className='ml-6'>
-            <h3 className="text-xl font-semibold">Email</h3>
-            <p className="mt-2">General@fhasolutions.ca</p>
+            <h3 className="text-xl font-semibold text-white">Email</h3>
+            <p className="mt-2 text-white">General@fhasolutions.ca</p>
           </div>
         </div>
         
-        <div className="flex p-6 rounded-lg duration-500 hover:shadow-lg">
+        <div className="flex p-6 rounded-lg duration-500 hover:shadow-lg bg-gray-900">
           <div>
             <Image src={map} alt="Location" className='w-48 mt-0' />
           </div>
           <div className='ml-6'>
-            <h3 className="text-xl font-semibold">Location</h3>
-            <p className="mt-2">Main Office: 25 Sheppard Ave W Suite #300, North York, ON M2N 6S6</p>
+            <h3 className="text-xl font-semibold text-white">Location</h3>
+            <p className="mt-2 text-white">Main Office: 25 Sheppard Ave W Suite #300, North York, ON M2N 6S6</p>
           </div>
         </div>
       </div>

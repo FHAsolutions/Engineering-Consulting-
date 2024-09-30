@@ -1,15 +1,17 @@
 "use client";
 import React, { useState } from 'react';
 import Link from 'next/link'; 
+
 export default function Navbar() {
     const [isClick, setIsClick] = useState(false);
 
     const runnav = (): void => {
         setIsClick(!isClick);
     };
+
     return (
         <div>
-            <nav className='bg-gray-900 transition-all duration-500  fixed top-0 w-full z-50'>
+            <nav className='bg-gray-900 transition-all duration-500 fixed top-0 w-full z-50'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                     <div className='flex items-center justify-between h-16'>
                         {/* Left: Logo */}
@@ -27,7 +29,6 @@ export default function Navbar() {
                                 <Link href="/" className='text-white hover:text-blue-500 p-2 rounded-lg'>Home</Link>
                                 <Link href="#Aboutus" className='text-white hover:text-blue-500 p-2 rounded-lg'>About Us</Link>
                                 <Link href="#Services" className='text-white hover:text-blue-500 p-2 rounded-lg'>Services</Link>
-                                <Link href="#Contact" className='text-white hover:text-blue-500 p-2 rounded-lg'>Contact Us</Link>
                             </div>
                         </div>
 
@@ -82,16 +83,14 @@ export default function Navbar() {
                 </div>
 
                 {/* Mobile Menu */}
-                {isClick && (
-                    <div className='md:hidden'>
-                        <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
-                            <Link href="/" className='text-white block hover:text-blue-500 p-2 rounded-lg'>Home</Link>
-                            <Link href="#Aboutus" className='text-white block hover:text-blue-500 p-2 rounded-lg'>About Us</Link>
-                            <Link href="#Services" className='text-white block hover:text-blue-500 p-2 rounded-lg'>Services</Link>
-                            <Link href="#Contact" className='text-white block hover:text-blue-500 p-2 rounded-lg'>Contact Us</Link>
-                        </div>
+                <div className={`md:hidden overflow-hidden transition-all duration-1000 ease-in-out ${isClick ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+                    <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
+                        <Link href="/" className='text-white block hover:text-blue-500 p-2 rounded-lg'>Home</Link>
+                        <Link href="#Aboutus" className='text-white block hover:text-blue-500 p-2 rounded-lg'>About Us</Link>
+                        <Link href="#Services" className='text-white block hover:text-blue-500 p-2 rounded-lg'>Services</Link>
+                        <Link href="#Contact" className='text-white block hover:text-blue-500 p-2 rounded-lg'>Contact Us</Link>
                     </div>
-                )}
+                </div>
             </nav>
         </div>
     );

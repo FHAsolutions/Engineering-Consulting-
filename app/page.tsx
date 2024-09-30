@@ -10,7 +10,7 @@ import Wallpaper from "./public/Images/00.jpeg"
 import Questions from "./Components/questions";
 export default function Home() {
   return (
-      <div>
+      <div className="">
       <div className="relative w-full h-[600px]">
       <Image
         src={Wallpaper}
