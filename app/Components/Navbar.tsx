@@ -1,5 +1,5 @@
-"use client";
-import React, {useState } from 'react';
+"use client"
+import React, { useState } from 'react';
 import Link from 'next/link'; 
 
 export default function Navbar() {
@@ -19,19 +19,20 @@ export default function Navbar() {
   return (
     <div>
       <nav className='bg-gray-900 transition-all duration-500 fixed top-0 w-full z-50'>
-        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <div className='justify-start ml-9 xl  '>
           <div className='flex items-center justify-between h-16'>
+            
             {/* Left: Logo */}
-            <div className='flex items-center'>
+            <div className='flex items-center flex-grow'>
               <div className='flex-shrink-0'>
-                <Link href="/" className='text-white lg:-ml-5 font-bold text-xl'>
+                <Link href="/" className='text-white font-bold text-xl'>
                   LOGO
                 </Link>
               </div>
             </div>
 
             {/* Center: Nav Links */}
-            <div className='hidden md:flex justify-center flex-grow'>
+            <div className='hidden md:flex justify-center'>
               <div className='flex items-center space-x-6'>
                 <Link href="/" className='text-white hover:text-blue-500 p-2 rounded-lg'>Home</Link>
                 <Link href="#Aboutus" className='text-white hover:text-blue-500 p-2 rounded-lg'>About Us</Link>
@@ -40,15 +41,15 @@ export default function Navbar() {
             </div>
 
             {/* Right: Contact Us Button */}
-            <div className='hidden lg:flex items-center'>
-              <button onClick={handleClick} className='bg-blue-500 -mr-6 text-white px-4 py-2  rounded-3xl hover:bg-blue-600 transition-colors'>
+            <div className='hidden lg:flex items-center justify-end mr-4 flex-grow'>
+              <button onClick={handleClick} className='bg-blue-500 text-white px-4 py-2 rounded-3xl hover:bg-blue-600 transition-colors'>
                 Contact Us
               </button>
             </div>
 
             {/* Mobile Menu Button */}
             <div className='md:hidden flex items-center'>
-              <button className='inline-flex items-center justify-center p-2 rounded-md text-white md:text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white'
+              <button className='inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white'
                 onClick={runnav}
               >
                 {isClick ? (

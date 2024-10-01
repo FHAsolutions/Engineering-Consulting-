@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import phone from "../public/Images/phone.png";
-import map from "../public/Images/map-marker.png";
+import map from "../public/Images/design.png";
 import email from "../public/Images/new-post.png";
 export default function Contact() {
   return (
@@ -31,8 +31,8 @@ export default function Contact() {
         </div>
         
         <div className="flex p-6 rounded-lg duration-500 hover:shadow-lg bg-gray-900">
-          <div>
-            <Image src={map} alt="Location" className='w-48 mt-0' />
+          <div className='rounded-full w-44 mt-2'>
+            <Image src={map} alt="Location" className='rounded-full' />
           </div>
           <div className='ml-6'>
             <h3 className="text-xl font-semibold text-white">Location</h3>

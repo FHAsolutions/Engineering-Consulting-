@@ -24,7 +24,7 @@ export default function Services() {
             <Image
               src={im4}
               alt="Telecom"
-              className="object-cover h-full w-full transform transition-transform duration-300 hover:scale-110"
+              className="object-cover h-full w-full border border-gray-900 transform transition-transform duration-300 hover:scale-110"
             />
           </div>
           <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] lg:w-[50%] h-64">
@@ -43,7 +43,7 @@ export default function Services() {
             <Image
               src={im2}
               alt="Middleman/Bids"
-              className="object-cover h-full w-full transform transition-transform duration-300 hover:scale-110"
+              className="object-cover h-full w-full border border-gray-900 transform transition-transform duration-300 hover:scale-110"
             />
           </div>
           <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
@@ -62,7 +62,7 @@ export default function Services() {
             <Image
               src={im3}
               alt="Design and Drafting"
-              className="object-cover h-full w-full transform transition-transform duration-300 hover:scale-110"
+              className="object-cover h-full w-full transform border border-gray-900 transition-transform duration-300 hover:scale-110"
             />
           </div>
           <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
@@ -81,7 +81,7 @@ export default function Services() {
             <Image
               src={im1}
               alt="Project Management"
-              className="object-cover h-full w-full transform transition-transform duration-300 hover:scale-110"
+              className="object-cover h-full w-full border border-gray-900 transform transition-transform duration-300 hover:scale-110"
             />
           </div>
           <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
@@ -98,7 +98,7 @@ export default function Services() {
             <Image
               src={im5}
               alt="General Consultation"
-              className="object-cover h-full w-full transform transition-transform duration-300 hover:scale-110"
+              className="object-cover h-full w-full border border-gray-900 transform transition-transform duration-300 hover:scale-110"
             />
           </div>
           <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
@@ -115,7 +115,7 @@ export default function Services() {
             <Image
               src={im6}
               alt="Telecom"
-              className="object-fit h-[100%] w-[100%] transform transition-transform duration-300 hover:scale-110"
+              className="object-fit h-[100%] w-[100%] border border-gray-900 transform transition-transform duration-300 hover:scale-110"
             />
           </div>
           <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">

@@ -7,7 +7,7 @@ import im3 from "../public/Images/ns.png";
 export default function ThreeContainerLayout() {
     return (
       <div>
-        <h1 className="text-black mt-20 mb-14 text-6xl text-center">FIELD OF SPECIALIZATION</h1>
+        <h1 className="text-black mt-20 mb-14 text-3xl text-center">FIELD OF SPECIALIZATION</h1>
         <br />
         <br />
         <div className="flex justify-center">
