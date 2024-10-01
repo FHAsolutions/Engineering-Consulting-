@@ -115,7 +115,7 @@ export default function Services() {
             <Image
               src={im6}
               alt="Telecom"
-              className="object-fit h-[50%]: w-[100%] transform transition-transform duration-300 hover:scale-110"
+              className="object-fit h-[100%] w-[100%] transform transition-transform duration-300 hover:scale-110"
             />
           </div>
           <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">

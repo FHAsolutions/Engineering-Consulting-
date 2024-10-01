@@ -24,9 +24,9 @@ export default function Contact() {
           <div>
             <Image src={email} alt="Email" />
           </div>
-          <div className='ml-6'>
+            <div className='ml-6'>
             <h3 className="text-xl font-semibold text-white">Email</h3>
-            <p className="mt-2 text-white">General@fhasolutions.ca</p>
+            <a className="mt-2 text-white" href='mailto:General@fhasolutions.ca'>General@fhasolutions.ca</a>
           </div>
         </div>
         
