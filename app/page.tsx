@@ -7,7 +7,6 @@ import HIC from "./Components/HIC";
 import Contact from "./Components/contact";
 import Landed from "./Components/land";
 import Wallpaper from "./public/Images/00.jpeg"
-import Questions from "./Components/questions";
 export default function Home() {
   return (
       <div>
