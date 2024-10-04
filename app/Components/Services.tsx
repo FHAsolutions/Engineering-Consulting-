@@ -18,15 +18,15 @@ export default function Services() {
 
         {/* Telecom Service */}
         <div className="flex flex-col md:flex-row justify-between items-center w-full">
-          <div className="relative h-64 w-full md:w-[50%] flex-1 overflow-hidden">
+          <div className="relative h-72 w-full md:w-[50%] flex-1 overflow-hidden">
             <Image
               src={im2}
               alt="Telecom"
               className="object-cover h-full w-full border border-gray-900 transform transition-transform duration-300 hover:scale-110"
             />
           </div>
-          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] lg:w-[50%] h-64">
-            <h2 className="text-2xl text-white font-bold mt-10 mb-4">Project Management and Coordination            </h2>
+          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] lg:w-[50%] h-72">
+            <h2 className="text-2xl text-white font-bold mt-2 mb-2">Project Management and Coordination            </h2>
             <p className="text-sm text-white">
             Our project management services provide comprehensive oversight 
             of all project phases, ensuring seamless collaboration among project 
@@ -39,15 +39,15 @@ export default function Services() {
 
         {/* Middleman/Bids Service */}
         <div className="flex flex-col md:flex-row-reverse justify-between items-center w-full">
-          <div className="relative h-64 w-full md:w-[50%] flex-1 overflow-hidden">
+          <div className="relative h-72 w-full md:w-[50%] flex-1 overflow-hidden">
             <Image
               src={im4}
               alt="Middleman/Bids"
               className="object-cover h-full w-full border border-gray-900 transform transition-transform duration-300 hover:scale-110"
             />
           </div>
-          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
-            <h2 className="text-2xl font-bold text-white mt-10 mb-4">Telecommunications Design and Engineering
+          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-72">
+            <h2 className="text-2xl font-bold text-white mt-2 mb-2">Telecommunications Design and Engineering
             </h2>
             <p className="text-sm text-white">
             We specialize in telecommunications design, offering 
@@ -61,15 +61,15 @@ export default function Services() {
 
         {/* Design and Drafting Service */}
         <div className="flex flex-col md:flex-row justify-between items-center w-full">
-          <div className="relative h-64 w-full md:w-[50%] flex-1 overflow-hidden">
+          <div className="relative h-72 w-full md:w-[50%] flex-1 overflow-hidden">
             <Image
               src={im3}
               alt="Design and Drafting"
               className="object-cover h-full w-full transform border border-gray-900 transition-transform duration-300 hover:scale-110"
             />
           </div>
-          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
-            <h2 className="text-2xl font-bold text-white mt-10 mb-4">Quality Control and Compliance</h2>
+          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-72">
+            <h2 className="text-2xl font-bold text-white mt-2 mb-4">Quality Control and Compliance</h2>
             <p className="text-sm text-white">
             Our quality control services guarantee that all engineering designs meet rigorous regulatory standards and client specifications. We conduct thorough reviews of plans and drawings to ensure compliance with CSA, ESA, and other relevant guidelines, minimizing risks and enhancing project reliability.
             </p>
@@ -78,15 +78,15 @@ export default function Services() {
 
         {/* Project Management Service */}
         <div className="flex flex-col md:flex-row-reverse justify-between items-center w-full">
-          <div className="relative h-64 w-full md:w-[50%] flex-1 overflow-hidden">
+          <div className="relative h-72 w-full md:w-[50%] flex-1 overflow-hidden">
             <Image
               src={im5}
               alt="Project Management"
               className="object-cover h-full w-full border border-gray-900 transform transition-transform duration-300 hover:scale-110"
             />
           </div>
-          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
-            <h2 className="text-2xl font-bold mb-4 mt-10 text-white">Procurement and Resource Management
+          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-72">
+            <h2 className="text-2xl font-bold mb-4 mt-2 text-white">Procurement and Resource Management
             </h2>
             <p className="text-sm text-white">
             We provide tailored procurement solutions to optimize resource allocation and streamline purchasing processes. Our experienced team manages vendor relationships and ensures efficient sourcing of materials, contributing to overall project success while maintaining cost-effectiveness.            </p>
