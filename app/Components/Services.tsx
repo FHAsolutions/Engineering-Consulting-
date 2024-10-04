@@ -1,15 +1,13 @@
 import React from 'react'
 import Image from 'next/image';
-import im1 from "../public/Images/1.jpg";
 import im2 from "../public/Images/2.jpg";
 import im3 from "../public/Images/3.jpg";
 import im4 from "../public/Images/4.jpg";
 import im5 from "../public/Images/5.jpg";
-import im6 from "../public/Images/6.jpg";
 export default function Services() {
   return (
     <div>
-      <div className="text-center mt-10">
+      <div className="text-center mt-24">
         <h1 className="text-black text-4xl md:text-6xl">
           Ser<span className="mb-2 inline-block">vices</span>
         </h1>
@@ -22,17 +20,19 @@ export default function Services() {
         <div className="flex flex-col md:flex-row justify-between items-center w-full">
           <div className="relative h-64 w-full md:w-[50%] flex-1 overflow-hidden">
             <Image
-              src={im4}
+              src={im2}
               alt="Telecom"
               className="object-cover h-full w-full border border-gray-900 transform transition-transform duration-300 hover:scale-110"
             />
           </div>
           <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] lg:w-[50%] h-64">
-            <h2 className="text-2xl text-white font-bold mt-10 mb-4">Telecom</h2>
+            <h2 className="text-2xl text-white font-bold mt-10 mb-4">Project Management and Coordination            </h2>
             <p className="text-sm text-white">
-              At FHA Solutions, we are a dedicated telecommunication design firm.
-              With extensive experience in both underground and aerial projects,
-              we pride ourselves on delivering high-quality work efficiently and effectively.
+            Our project management services provide comprehensive oversight 
+            of all project phases, ensuring seamless collaboration among project 
+            coordinators, engineers, and CAD designers. By maintaining clear communication 
+            and effective resource management, we facilitate timely project delivery while 
+            adhering to budget constraints.
             </p>
           </div>
         </div>
@@ -41,17 +41,20 @@ export default function Services() {
         <div className="flex flex-col md:flex-row-reverse justify-between items-center w-full">
           <div className="relative h-64 w-full md:w-[50%] flex-1 overflow-hidden">
             <Image
-              src={im2}
+              src={im4}
               alt="Middleman/Bids"
               className="object-cover h-full w-full border border-gray-900 transform transition-transform duration-300 hover:scale-110"
             />
           </div>
           <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
-            <h2 className="text-2xl font-bold text-white mt-10 mb-4">Middleman/Bids</h2>
+            <h2 className="text-2xl font-bold text-white mt-10 mb-4">Telecommunications Design and Engineering
+            </h2>
             <p className="text-sm text-white">
-              We specialize in overseeing and ensuring the success of your projects!
-              Providing a seamless service connecting bidders to their most suitable contractor
-              to maximize efficiencies.
+            We specialize in telecommunications design, offering 
+            expertise in both aerial and underground utility infrastructure. 
+            Our team produces detailed engineering drawings that comply with 
+            industry standards, ensuring the successful integration of telecommunication 
+            systems into various projects.
             </p>
           </div>
         </div>
@@ -66,11 +69,9 @@ export default function Services() {
             />
           </div>
           <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
-            <h2 className="text-2xl font-bold text-white mt-10 mb-4">Design and Drafting</h2>
+            <h2 className="text-2xl font-bold text-white mt-10 mb-4">Quality Control and Compliance</h2>
             <p className="text-sm text-white">
-              We pride ourselves on delivering high-quality work efficiently and effectively.
-              Our commitment to excellence ensures that your projects are completed on time
-              and to the highest standards.
+            Our quality control services guarantee that all engineering designs meet rigorous regulatory standards and client specifications. We conduct thorough reviews of plans and drawings to ensure compliance with CSA, ESA, and other relevant guidelines, minimizing risks and enhancing project reliability.
             </p>
           </div>
         </div>
@@ -79,52 +80,21 @@ export default function Services() {
         <div className="flex flex-col md:flex-row-reverse justify-between items-center w-full">
           <div className="relative h-64 w-full md:w-[50%] flex-1 overflow-hidden">
             <Image
-              src={im1}
+              src={im5}
               alt="Project Management"
               className="object-cover h-full w-full border border-gray-900 transform transition-transform duration-300 hover:scale-110"
             />
           </div>
           <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
-            <h2 className="text-2xl font-bold mb-4 mt-10 text-white">Project Management</h2>
+            <h2 className="text-2xl font-bold mb-4 mt-10 text-white">Procurement and Resource Management
+            </h2>
             <p className="text-sm text-white">
-              We are dedicated to delivering projects efficiently and to the highest standards.
-            </p>
+            We provide tailored procurement solutions to optimize resource allocation and streamline purchasing processes. Our experienced team manages vendor relationships and ensures efficient sourcing of materials, contributing to overall project success while maintaining cost-effectiveness.            </p>
           </div>
         </div>
 
-        {/* General Consultation Service */}
-        <div className="flex flex-col md:flex-row justify-between items-center w-full">
-          <div className="relative h-64 w-full md:w-[50%] flex-1 overflow-hidden">
-            <Image
-              src={im5}
-              alt="General Consultation"
-              className="object-cover h-full w-full border border-gray-900 transform transition-transform duration-300 hover:scale-110"
-            />
-          </div>
-          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
-            <h2 className="text-2xl font-bold mb-4 mt-10 text-white">General Consultation & Contracting</h2>
-            <p className="text-sm text-white">
-              Our experienced team ensures your projects are delivered to the highest standards.
-            </p>
-          </div>
-        </div>
-
-        {/* Additional Telecom Service */}
-        <div className="flex flex-col md:flex-row-reverse justify-between items-center w-full">
-          <div className="relative h-64 w-full md:w-[50%] flex-1 overflow-hidden">
-            <Image
-              src={im6}
-              alt="Telecom"
-              className="object-fit h-[100%] w-[100%] border border-gray-900 transform transition-transform duration-300 hover:scale-110"
-            />
-          </div>
-          <div className="bg-gray-900 border border-gray-900 p-6 w-full md:w-[50%] h-64">
-            <h2 className="text-2xl font-bold mb-4 mt-10 text-white">Telecom</h2>
-            <p className="text-sm text-white">
-              Delivering high-quality work efficiently and effectively.
-            </p>
-          </div>
-        </div>
+ 
+        
 
       </div>
     </div>

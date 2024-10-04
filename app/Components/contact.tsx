@@ -5,7 +5,7 @@ import map from "../public/Images/icons8-map-marker-100.png";
 import email from "../public/Images/new-post.png";
 export default function Contact() {
   return (
-    <div className="container mt-16 mx-auto px-4">
+    <div className="container mt-24 mx-auto px-4">
       <h2 className="text-5xl  text-center text-black mb-8">
         CON<span>TACT INFO</span>
       </h2>
@@ -16,7 +16,7 @@ export default function Contact() {
           </div>
           <div className='ml-6'>
             <h3 className="text-xl font-semibold text-white">Phone</h3>
-            <p className="mt-2 text-white">TBD</p>
+            <p className="mt-2 text-white">(647) 429-7279</p>
           </div>
         </div>
         
@@ -40,7 +40,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center mt-2">
+      <div className="flex justify-center items-center mt-16">
   <div className="p-6 rounded-lg duration-1000 hover:shadow-lg w-full flex justify-center items-center">
     <div className="text-center">
       <h3 className="text-4xl mb-4">You Can Find Us At</h3> <br />

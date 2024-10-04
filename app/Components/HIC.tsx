@@ -1,33 +1,48 @@
 import React from 'react'
-import Image from 'next/image'
-import im1 from "../public/Images/con-2.svg"
-import im2 from "../public/Images/3_icon.svg"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCodeBranch, faHandshakeAngle, faUsersGear } from '@fortawesome/free-solid-svg-icons'
 
 export default function HIC() {
   return (
     <div>
-    <div className='text-center mt-28 items-center justify-center'>
+    <div className='text-center mt-24 items-center justify-center'>
     <h1 className=" text-black mt-10 text-6xl text-center justify-center mb-2 inline-block">Our Vision</h1>
     <br />
     <br />
     <div className="flex justify-center">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {/* Container 1 */}
         <div className="bg-transparent hover:bg-gray-900 transition-all duration-500 rounded-3xl border-spacing-1 border border-gray-400  transform w-[350px] h-[400px] group">
-          <Image src={im1} alt="Image 1" className="ml-36 mt-9 object-fit items-center justify-center rounded-t-lg" />
+          <div className="ml-28 mt-9 w-[150px] object-fit items-center justify-center rounded-t-lg">
+          <FontAwesomeIcon icon={faCodeBranch} size="3x" className=" group-hover:text-blue-400" />
+          </div>
           <div className="p-6">
-            <h2 className="text-xl text-black font-bold mb-2 group-hover:text-blue-400">To Help Your Projects Come To Life</h2>
-            <p className="text-black group-hover:text-blue-400">Our vision is to help your projects come to life. We believe in transforming ideas into reality through innovative design and expert execution. By prioritizing collaboration and creativity, we aim to empower you to realize your goals and bring your vision to fruition.
+            <h2 className="text-xl text-black font-bold mb-2 group-hover:text-blue-400">Innovative Excellence
+            </h2>
+            <p className="text-black group-hover:text-blue-400"> To lead the industry with cutting-edge engineering solutions that set new standards for quality, efficiency, and sustainability.
             </p>
           </div>
         </div>
 
         {/* Container 2 */}
         <div className="bg-transparent hover:bg-gray-900 transition-all duration-500 rounded-3xl border-spacing-1 border border-gray-400 items-center justify-center text-center w-[350px] h-[400px] group">
-          <Image src={im2} alt="Image 2" className="ml-36 mt-9 object-fit rounded-t-lg" />
+        <div className="ml-24 mt-9 w-[150px] object-fit items-center justify-center rounded-t-lg">
+          <FontAwesomeIcon icon={faUsersGear} size="3x" className=" group-hover:text-blue-400" />
+          </div>
           <div className="p-6">
-            <h2 className="text-xl text-black font-bold mb-2 group-hover:text-blue-400">Client Expansion</h2>
-            <p className="text-black group-hover:text-blue-400">We view our clients as partners. We are committed to every project, regardless of its scale, and strive to foster meaningful collaborations. Our dedication to building strong relationships ensures that we not only meet your needs but also create opportunities for mutual growth.</p>
+            <h2 className="text-xl text-black font-bold mb-2 group-hover:text-blue-400">Client-Centric Approach
+            </h2>
+            <p className="text-black group-hover:text-blue-400"> To build lasting partnerships by consistently exceeding client expectations through exceptional service and tailored solutions.</p>
+          </div>
+        </div>
+        <div className="bg-transparent hover:bg-gray-900 transition-all duration-500 rounded-3xl border-spacing-1 border border-gray-400  transform w-[350px] h-[400px] group">
+        <div className="ml-28 mt-9 w-[150px] object-fit items-center justify-center rounded-t-lg">
+        <FontAwesomeIcon icon={faHandshakeAngle} size="3x" className=" group-hover:text-blue-400" />
+          </div>
+          <div className="p-6">
+            <h2 className="text-xl text-black font-bold mb-2 group-hover:text-blue-400">Empowered Workforce</h2>
+            <p className="text-black group-hover:text-blue-400"> To foster a culture of continuous learning and professional growth, empowering our team to achieve their full potential and drive our collective success.
+            </p>
           </div>
         </div>
         <br/><br/><br/><br/><br/><br/><br/><br/>

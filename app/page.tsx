@@ -10,7 +10,7 @@ import Wallpaper from "./public/Images/00.jpeg"
 import Questions from "./Components/questions";
 export default function Home() {
   return (
-      <div className="">
+      <div>
       <div className="relative w-full h-[600px]">
       <Image
         src={Wallpaper}
@@ -31,9 +31,6 @@ export default function Home() {
         </section>
         <section id="Services">
           <Services/>
-        </section>
-        <section>
-          <Questions/>
         </section>
         <section id="Contact">
           <Contact/>
