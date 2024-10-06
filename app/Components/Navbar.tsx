@@ -1,9 +1,11 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link'; 
-
+import Image from 'next/image';
+import Logo from '../public/Images/FHA logo.png'
 export default function Navbar() {
   const [isClick, setIsClick] = useState(false);
+  // const [isScrolled, setIsScrolled] = useState(false);
 
   const runnav = (): void => {
     setIsClick(!isClick);
@@ -15,7 +17,20 @@ export default function Navbar() {
       contactSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 50) {
+  //       setIsScrolled(true);
+  //     } else {
+  //       setIsScrolled(false);
+  //     }
+  //   };
 
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
   return (
     <div>
       <nav className='bg-gray-900 transition-all duration-500 fixed top-0 w-full z-50'>
@@ -26,7 +41,7 @@ export default function Navbar() {
             <div className='flex items-center flex-grow'>
               <div className='flex-shrink-0'>
                 <Link href="/" className='text-white font-bold text-xl'>
-                  LOGO
+                  <Image src ={Logo} alt="" className="h-10 w-auto object-contain" />
                 </Link>
               </div>
             </div>
