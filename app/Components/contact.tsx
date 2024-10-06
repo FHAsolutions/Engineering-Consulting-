@@ -6,17 +6,17 @@ import email from "../public/Images/new-post.png";
 
 export default function Contact() {
   return (
-    <div className="container mt-24 mb-32 mx-auto px-36">
+    <div className="container mt-24 mb-32 mx-auto px-10">
       <h2 className="text-5xl text-center text-black mb-8">
         CON<span>TACT INFO</span>
       </h2>
 
       {/* Grid for contact info and map */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2">
 
         {/* Contact Information */}
-        <div className="space-y-8">
-          <div className="flex p-6 rounded-lg duration-500 hover:shadow-lg bg-gray-900">
+        <div className="space-y-8 lg:ml-24">
+          <div className="flex p-6 rounded-lg duration-500 hover:shadow-lg lg:w-[500px] bg-gray-900">
             <div>
               <Image src={phone} alt="Phone" />
             </div>
@@ -26,7 +26,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="flex p-6 rounded-lg duration-500 hover:shadow-lg bg-gray-900">
+          <div className="flex p-6 rounded-lg duration-500 lg:w-[500px] hover:shadow-lg bg-gray-900">
             <div>
               <Image src={email} alt="Email" />
             </div>
@@ -37,19 +37,46 @@ export default function Contact() {
               </a>
             </div>
           </div>
-
-          <div className="flex p-6 rounded-lg duration-500 hover:shadow-lg bg-gray-900">
-            <div className="rounded-full w-52">
-              <Image src={map} alt="Location" className="rounded-full" />
-            </div>
-            <div>
+          <div className="flex p-6 rounded-lg w-full duration-500 lg:w-[500px] hover:shadow-lg bg-gray-900">
+              <div className="rounded-full flex-shrink-0">
+                  <Image src={map} alt="Location" sizes="8x" className="rounded-full" />
+              </div>
+          <div className=" ml-5 flex-grow">
               <h3 className="text-xl font-semibold text-white">Location</h3>
               <p className="mt-2 text-white">
                 Main Office: 25 Sheppard Ave W Suite #300, North York, ON M2N 6S6
               </p>
-            </div>
           </div>
         </div>
+          </div>
+          {/* <div className="flex p-6 rounded-lg duration-500 lg:w-[500px] hover:shadow-lg bg-gray-900">
+            <div>
+              <Image src={map} alt="Email" />
+            </div>
+            <div className="ml-6">
+              <h3 className="text-xl font-semibold text-white">Location</h3>
+              <div className='border w-32'>
+              <p className="mt-2 text-white">
+                Main Office: 25 Sheppard Ave 
+                W Suite #300, North York,ON M2N 6S6
+              </p>
+              </div>
+            </div>
+          </div> */}
+{/* 
+          <div className="flex p-6 rounded-lg w-f duration-500 lg:w-[500px] hover:shadow-lg bg-gray-900">
+            <div className="rounded-full w-60 sm:w-52 lg:w-60">
+              <Image src={map} alt="Location" sizes='8x' className="rounded-full" />
+            </div>
+            <div className="-ml-3">
+              <h3 className="text-xl font-semibold text-white">Location</h3>
+              <p className="mt-2 text-white">
+                Main Office: 25 Sheppard Ave 
+                W Suite #300, North York,ON M2N 6S6
+              </p>
+            </div>
+          </div>
+        </div> */}
 
         {/* Map Section */}
         <div className="flex justify-center items-center">
