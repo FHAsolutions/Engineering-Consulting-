@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <div className="container mt-24 mb-32 mx-auto px-10">
       <h2 className="text-5xl text-center text-black mb-8">
-        CON<span>TACT INFO</span>
+        Con<span>tact Info</span>
       </h2>
 
       {/* Grid for contact info and map */}

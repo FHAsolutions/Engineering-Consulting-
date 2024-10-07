@@ -13,7 +13,7 @@ export default function HIC() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {/* Container 1 */}
         <div className="bg-transparent hover:bg-gray-900 transition-all duration-500 rounded-3xl border-spacing-1 border border-gray-400  transform w-[350px] h-[400px] group">
-          <div className="ml-28 mt-9 w-[150px] object-fit items-center justify-center rounded-t-lg">
+          <div className="ml-28 mt-9 w-[105px] object-fit items-center justify-center rounded-t-lg">
           <FontAwesomeIcon icon={faCodeBranch} size="3x" className=" group-hover:text-blue-400" />
           </div>
           <div className="p-6">
