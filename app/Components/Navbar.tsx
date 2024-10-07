@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link'; 
 import Image from 'next/image';
-import Logo from '../public/Images/FHA logo.png'
+import Logo from '../public/Images/For Boodi - White FHA.png'
 export default function Navbar() {
   const [isClick, setIsClick] = useState(false);
   // const [isScrolled, setIsScrolled] = useState(false);
