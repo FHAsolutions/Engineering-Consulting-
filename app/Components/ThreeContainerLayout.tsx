@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDiagramProject, faFileSignature, faHandHoldingDollar, faTowerCell } from '@fortawesome/free-solid-svg-icons';
+import { faDiagramProject, faFileSignature, faHandHoldingDollar ,faTowerCell } from '@fortawesome/free-solid-svg-icons';
 
 export default function ThreeContainerLayout() {
     return (
@@ -8,12 +8,12 @@ export default function ThreeContainerLayout() {
         <h1 className="text-black mt-24 mb-14 text-4xl text-center sm:text-3xl md:text-5xl lg:text-6xl sm:mt-16 md:mt-20 lg:mt-24 sm:mb-10 md:mb-12 lg:mb-14">FIELD OF SPECIALIZATION</h1>
         <br />
         <br />
-        <div className="flex justify-center">
+        <div className="flex text-center items-center justify-center">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:grid-areas-custom">
             
             {/* Container 1 */}
-            <div className="bg-transparent hover:bg-gray-900 transition-all g rounded-3xl border-spacing-1 border border-gray-400 transform hover:-translate-y-20 duration-500 w-[350px] h-[500px] group lg:area-one">
-              <div className="ml-6 mt-9 w-[150px] object-fit rounded-t-lg">
+            <div className="bg-transparent justify-center items-center hover:bg-gray-900 transition-all g rounded-3xl border-spacing-1 border border-gray-400 transform hover:-translate-y-20 duration-500 w-[350px] h-[500px] group lg:area-one">
+              <div className="ml-24 mt-9 w-[150px] object-fit rounded-t-lg">
                 <FontAwesomeIcon icon={faHandHoldingDollar} size="3x" className="group-hover:text-blue-400" />
               </div>
               <div className="p-6 transition-colors duration-1000">
@@ -28,7 +28,7 @@ export default function ThreeContainerLayout() {
   
             {/* Container 2 */}
             <div className="bg-transparent hover:bg-gray-900 transition-all rounded-3xl border-spacing-1 border border-gray-400 transform duration-500 hover:-translate-y-20 w-[350px] h-[500px] group lg:area-two">
-              <div className="ml-6 mt-9 w-[150px] object-fit rounded-t-lg">
+              <div className="ml-24 mt-9 w-[150px] object-fit rounded-t-lg">
                 <FontAwesomeIcon icon={faDiagramProject} size="3x" className="group-hover:text-blue-400"/>
               </div>
               <div className="p-6 transition-colors duration-1000">
@@ -41,7 +41,7 @@ export default function ThreeContainerLayout() {
   
             {/* Container 3 */}
             <div className="bg-transparent hover:bg-gray-900 transition-all rounded-3xl border-spacing-1 border border-gray-400 transform duration-500 hover:-translate-y-20 hover:delay-2000 w-[350px] h-[500px] group lg:area-three">
-              <div className="ml-6 mt-9 w-[150px] object-fit rounded-t-lg">
+              <div className="ml-28 mt-9 w-[150px] object-fit rounded-t-lg">
                 <FontAwesomeIcon icon={faFileSignature} size="3x" className="group-hover:text-blue-400"/>
               </div>
               <div className="p-6 transition-colors duration-1000">
@@ -57,7 +57,7 @@ export default function ThreeContainerLayout() {
             </div>
             {/* Container 4 */}
             <div className="bg-transparent hover:bg-gray-900 transition-all rounded-3xl border-spacing-1 border border-gray-400 transform duration-500 hover:-translate-y-6 hover:delay-2000 w-[350px] h-[500px] group lg:area-four">
-              <div className="ml-6 mt-9 w-[150px] object-fit rounded-t-lg">
+              <div className="ml-24 mt-9 w-[150px] object-fit rounded-t-lg">
                 <FontAwesomeIcon icon={faTowerCell} size="3x" className="group-hover:text-blue-400"/>
               </div>
               <div className="p-6 transition-colors duration-1000">
