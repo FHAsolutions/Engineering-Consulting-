@@ -6,7 +6,7 @@ export default function ThreeContainerLayout() {
   return (
     <div>
       <h1 className="text-black mt-24 mb-14 text-4xl text-center sm:text-3xl md:text-5xl lg:text-6xl sm:mt-16 md:mt-20 lg:mt-24  md:mb-12">
-        Field Of Specializationذذ
+        Field Of Specialization
       </h1>
       <div className="flex text-center items-center justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-10">
